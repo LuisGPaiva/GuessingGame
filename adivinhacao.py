@@ -27,7 +27,6 @@ while True:
             print('Vamos tentar novamente...')
             time.sleep(2)
             continue
-
         if n_luck == n_user:
             print('Parabéns, você acertou o número que eu estava pensando!')
             print('E com isso você ganhou...')
@@ -36,7 +35,6 @@ while True:
             time.sleep(2)
             print('NADA!')
             break
-        
         else:
             print('Que pena, você não acertou! :{')
             print('O número que eu estava pensando era o', n_luck, '!')
